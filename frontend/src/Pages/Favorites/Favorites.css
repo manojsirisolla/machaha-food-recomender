@@ -1,0 +1,89 @@
+.favorites {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.favorites h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.favorites-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.favorite-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.favorite-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.favorite-info h3 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.favorite-info p {
+  margin: 0 0 10px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* BUTTON ROW */
+.btn-group {
+  display: flex;
+  gap: 12px; /* spacing between buttons */
+}
+
+/* COMMON BUTTON */
+.btn-group button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ADD TO CART - GREEN */
+.add-cart {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-cart:hover {
+  background-color: #218838;
+}
+
+/* REMOVE - RED */
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.remove-btn:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,172 @@
+.mobile-app-page {
+  padding: 2rem;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero section */
+.mobile-app-hero {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #ff7e8b, #ffb347);
+  border-radius: 16px;
+  color: white;
+}
+
+.mobile-app-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.mobile-app-hero p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* App features section */
+.app-features {
+  margin: 4rem 0;
+  padding: 2rem;
+}
+
+.app-features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Scan section */
+.scan-section {
+  margin: 4rem 0;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 16px;
+}
+
+.scan-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.scan-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Scan button */
+.scan-button {
+  background-color: #ff7e8b;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.scan-button:hover {
+  background-color: #e66b77;
+  transform: translateY(-2px);
+}
+
+/* Scanner container */
+.scanner-container {
+  display: inline-block;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.scan-instructions {
+  margin-top: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Scan image */
+.mobile-scan-image {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .mobile-app-page {
+    padding: 1rem;
+  }
+  
+  .mobile-app-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .mobile-app-hero p {
+    font-size: 1.1rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .screenshots-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .mobile-scan-image {
+    width: 200px;
+    height: 200px;
+  }
+}

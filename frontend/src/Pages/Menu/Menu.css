@@ -1,0 +1,59 @@
+.menu-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Menu hero section */
+.menu-hero {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  color: white;
+}
+
+.menu-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.menu-hero p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Menu content */
+.menu-content {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .menu-page {
+    padding: 1rem;
+  }
+  
+  .menu-hero {
+    padding: 2rem 1rem;
+  }
+  
+  .menu-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .menu-hero p {
+    font-size: 1.1rem;
+  }
+  
+  .menu-content {
+    padding: 1rem;
+  }
+}
